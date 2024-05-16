@@ -1,9 +1,9 @@
 import styles from '../styles/about.module.css'
 
-export default function Home() {
+export default function About() {
   return (
     <main>
-      <h1 className={styles.placeholder}>I'm the home page!</h1>
+      <h1 className={styles.title}>Pleased to meet you!</h1>
     </main>
   )
 }
