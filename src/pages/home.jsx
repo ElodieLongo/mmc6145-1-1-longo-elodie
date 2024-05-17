@@ -1,5 +1,5 @@
-import styles from '../styles/home.module.css'
-import Project1 from '../assets/Project1.jpg'
+import styles from '../styles/home.module.css';
+import Project from '../components/project';
 
 
 export default function Home() {
@@ -7,9 +7,12 @@ export default function Home() {
   
     <main>
       <h1 className={styles.title}>I'm the home page!</h1>
+      <Project/>
+      <Project/>
+      
 
-      <img src={Project1} alt="Project1" width="300" height="auto"/>
     </main>
     
   )
 }
+
